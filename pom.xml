@@ -5,9 +5,10 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>WuYiFan2019211001001227</artifactId>
+    <artifactId>wuyifan2019211001001227</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>2019211001001227WuYiFan</name>
+    <packaging>war</packaging>
 
     <properties>
         <maven.compiler.target>1.8</maven.compiler.target>
@@ -16,7 +17,12 @@
     </properties>
 
     <dependencies>
-
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>8.0.1</version>
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-api</artifactId>
@@ -33,6 +39,11 @@
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-war-plugin</artifactId>
+                <version>3.3.0</version>
+            </plugin>
         </plugins>
     </build>
 </project>
