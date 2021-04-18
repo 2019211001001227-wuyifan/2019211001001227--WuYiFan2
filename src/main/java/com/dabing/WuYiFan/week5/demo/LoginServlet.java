@@ -1,6 +1,6 @@
-package com.WuYiFan.week5.demo;
-import com.WuYiFan.dao.UserDao;
-import com.WuYiFan.model.User;
+package com.dabing.WuYiFan.week5.demo;
+import com.dabing.WuYiFan.dao.UserDao;
+import com.dabing.WuYiFan.model.User;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;

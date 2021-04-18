@@ -1,4 +1,4 @@
-package com.WuYiFan.controller;
+package com.dabing.WuYiFan.controller;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

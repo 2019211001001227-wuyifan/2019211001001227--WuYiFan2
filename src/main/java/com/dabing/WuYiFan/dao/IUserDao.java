@@ -1,6 +1,6 @@
-package com.WuYiFan.dao;
+package com.dabing.WuYiFan.dao;
 
-import com.WuYiFan.model.User;
+import com.dabing.WuYiFan.model.User;
 
 import java.sql.Connection;
 import java.sql.SQLException;

@@ -1,4 +1,4 @@
-package com.WuYiFan.model;
+package com.dabing.WuYiFan.model;
 import java.util.Date;
 public class User {
     private int id;
